@@ -1,13 +1,11 @@
-﻿using System.Drawing;
-
-namespace LogicalPrograms
+﻿namespace LogicalPrograms
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Logical Programs!");
-            Console.WriteLine("\n1. Fibonacci Series. \n2. Perfect Number");
+            Console.WriteLine("\n1. Fibonacci Series. \n2. Perfect Number. \n3. Prime Number");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -18,6 +16,10 @@ namespace LogicalPrograms
                 //Q2. Perfect Number
                 case 2:
                     PerfectNumber.GetPerfectNumber();
+                    break;
+                //Q3. Prime Number
+                case 3:
+                    PrimeNumber.GetPrimeNumber();
                     break;
                 // Out of range question
                 default:

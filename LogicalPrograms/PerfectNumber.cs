@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LogicalPrograms
+﻿namespace LogicalPrograms
 {
     internal class PerfectNumber
     {
@@ -20,15 +14,16 @@ namespace LogicalPrograms
                     sumOfFactors += i;
                     Console.WriteLine(i);
                 }
-                i++; 
+                i++;
             }
             Console.WriteLine("Sum of factors :" + sumOfFactors);
-            if (sumOfFactors == number) {
-                Console.WriteLine("{0} is a Perfect Number",number);
+            if (sumOfFactors == number)
+            {
+                Console.WriteLine("{0} is a Perfect Number", number);
             }
             else
             {
-                Console.WriteLine("{0} is not a Perfect Number",number);
+                Console.WriteLine("{0} is not a Perfect Number", number);
             }
         }
     }
