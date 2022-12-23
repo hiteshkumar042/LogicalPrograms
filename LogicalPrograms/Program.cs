@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Logical Programs!");
-            Console.WriteLine("\n1. Fibonacci Series. \n2. Perfect Number. \n3. Prime Number. \n4. Reverse Number. \n5. Coupon Numbers \n");
+            Console.WriteLine("\n1. Fibonacci Series. \n2. Perfect Number. \n3. Prime Number. \n4. Reverse Number. \n5. Coupon Numbers. \n6. StopWatch.\n");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -28,6 +28,10 @@
                 //Q5. Coupon Numbers 
                 case 5:
                     CouponNumbers.GetCouponNumbers();
+                    break;
+                //Q6. Stop Watch
+                case 6:
+                    StopWatchCls.GetStopWatch();
                     break;
                 // Out of range question
                 default:
