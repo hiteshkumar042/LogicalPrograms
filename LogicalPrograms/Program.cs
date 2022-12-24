@@ -6,7 +6,8 @@
         {
             Console.WriteLine("Welcome to Logical Programs!");
             Console.WriteLine("\n1. Fibonacci Series. \n2. Perfect Number. \n3. Prime Number. \n4. Reverse Number. \n5. Coupon Numbers. \n6. StopWatch.");
-            Console.WriteLine("7. Vending Machine.\n8. Day of Week.\n9. Temperature Conversion.\n10. Montly Payment.\n");
+            Console.WriteLine("7. Vending Machine.\n8. Day of Week.\n9. Temperature Conversion.\n10. Montly Payment.");
+            Console.WriteLine("11.Square Root\n");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -49,6 +50,10 @@
                 //Q 10. Monthly Payment
                 case 10:
                     MonthlyPayment.GetMonthlyPayment();
+                    break;
+                //Q 11. Square Root
+                case 11:
+                    SquareRoot.GetSquareRoot();
                     break;
                 // Out of range question
                 default:
