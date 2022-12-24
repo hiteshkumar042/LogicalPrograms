@@ -5,9 +5,9 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Logical Programs!");
-            Console.WriteLine("\n1. Fibonacci Series. \n2. Perfect Number. \n3. Prime Number. \n4. Reverse Number. \n5. Coupon Numbers. \n6. StopWatch.");
-            Console.WriteLine("7. Vending Machine.\n8. Day of Week.\n9. Temperature Conversion.\n10. Montly Payment.");
-            Console.WriteLine("11.Square Root\n");
+            Console.WriteLine("\n01. Fibonacci Series. \n02. Perfect Number. \n03. Prime Number. \n04. Reverse Number. \n05. Coupon Numbers. \n06. StopWatch.");
+            Console.WriteLine("07. Vending Machine.\n08. Day of Week.\n09. Temperature Conversion.\n10. Montly Payment.");
+            Console.WriteLine("11. Square Root. \n12. Decimal to Binary.\n");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -55,11 +55,14 @@
                 case 11:
                     SquareRoot.GetSquareRoot();
                     break;
+                //Q 12. Binary to Decimal
+                case 12:
+                    ToBinary.GetBinary();
+                    break;
                 // Out of range question
                 default:
                     Console.WriteLine("Choose given option only.");
                     break;
-                
             }
         }
         
