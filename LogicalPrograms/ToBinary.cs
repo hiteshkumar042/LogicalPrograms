@@ -11,11 +11,10 @@
             {
                 binary[i] = decNum % 2;
                 decNum /= 2;
-                Console.Write(binary[i] + " ");
             }
             for (int i = binary.Length-1; i >= 0; i--)
             {
-                Console.Write("\n"+binary[i] + " ");
+                Console.Write(binary[i] + " ");
             }
         }
     }

@@ -7,7 +7,7 @@
             Console.WriteLine("Welcome to Logical Programs!");
             Console.WriteLine("\n01. Fibonacci Series. \n02. Perfect Number. \n03. Prime Number. \n04. Reverse Number. \n05. Coupon Numbers. \n06. StopWatch.");
             Console.WriteLine("07. Vending Machine.\n08. Day of Week.\n09. Temperature Conversion.\n10. Montly Payment.");
-            Console.WriteLine("11. Square Root. \n12. Decimal to Binary.\n");
+            Console.WriteLine("11. Square Root. \n12. Decimal to Binary.\n13. Swap Nibble\n");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -58,6 +58,10 @@
                 //Q 12. Binary to Decimal
                 case 12:
                     ToBinary.GetBinary();
+                    break;
+                //Q 13. Swap Nibble and Result
+                case 13:
+                    SwapNibble.GetSwapNibble();
                     break;
                 // Out of range question
                 default:
