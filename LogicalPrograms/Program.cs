@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome to Logical Programs!");
             Console.WriteLine("\n1. Fibonacci Series. \n2. Perfect Number. \n3. Prime Number. \n4. Reverse Number. \n5. Coupon Numbers. \n6. StopWatch.");
-            Console.WriteLine("7. Vending Machine.\n8. Day of Week.\n9. Temperature Conversion.\n");
+            Console.WriteLine("7. Vending Machine.\n8. Day of Week.\n9. Temperature Conversion.\n10. Montly Payment.\n");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -42,8 +42,13 @@
                 case 8:
                     DayOfWeek.DayOfWeekFn();
                     break;
+                //Q9. temprature Conversion
                 case 9:
                     TemperatureConversion.GetTempConvert();
+                    break;
+                //Q 10. Monthly Payment
+                case 10:
+                    MonthlyPayment.GetMonthlyPayment();
                     break;
                 // Out of range question
                 default:
