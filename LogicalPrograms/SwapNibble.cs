@@ -8,9 +8,12 @@ namespace LogicalPrograms
 {
     internal class SwapNibble
     {
+<<<<<<< HEAD
         public static void  GetSwapNibble() 
         {
             ToBinary.GetBinary();
         }
+=======
+>>>>>>> SwapNibblesBinary
     }
 }
