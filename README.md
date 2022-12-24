@@ -11,5 +11,5 @@
 9. Temperatur Conversion.
 10. Monthly Payment.
 11. Square root of number.
-12. Decimal to Binary
-13. Binary to Decimal
+12. Decimal to Binary.
+13. Binary to Decimal.
